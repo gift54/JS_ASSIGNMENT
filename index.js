@@ -241,40 +241,21 @@ var students = [
         height: "5.0",
         grade: [20,39,54,70,90]
     }
+    
 
 ];
-var max =0;
+var maximum = 0
 
 students.forEach(function(value){
-    if(max < value.height){
-        max = value.height;
+    if(maximum < value.height){
+        maximum = value.height;
     }
-    console.log(value.height);
 });
-console.log(max);
-      var name=n;
-      var age =a;
-      var marks =c;
 
-      var averagemarks = (function(){
-          varsum = 0;
-          marks.foreach(function(c){
-              sum += c;
+console.log(maximum);
 
-          }
-      }
+var studentA = students.filter((student)=> student.height == maximum);
+console.log ("\nThe tallest student's profile:\n",studentA);
 
+console.log("\nThe student with the highest grade profile:\n", students[b]);
 
-
-
-var studentA = students.filter((student)=> student.height == max);
-    console.log(studentA);
-    funtion
-    
-    students.forEach(function(value){
-        reduce ((c,d,f,g,h)=> {c+d+f+g+h})
-        Avg = students[0] grade.reduce((c,d,f,g,h))
-    })
-
-    students[0] =grade.lenght;
-    console.log(Avg);
