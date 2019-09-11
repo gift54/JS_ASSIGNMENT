@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript assignment</title>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <p id="hello">welcome to my world</p>
+        <div id="gift>"></div>
+       
+    </body>
+</html>
